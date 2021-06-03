@@ -37,7 +37,7 @@
         </tbody>
     </table>
 
-    <form>
+    <form id="createForm">
         <h3>FORM</h3>
         <label>TITLE</label>
         <input type="text" name="title" placeholder="Title...">
@@ -45,7 +45,17 @@
         <input type="text" name="author" placeholder="Author...">
         <button>Submit</button>
     </form>
-    <script src="./app.js"></script>
+
+    <form id="editForm">
+        <input type="hidden" name="id">
+        <h3>Edit FORM</h3>
+        <label>TITLE</label>
+        <input type="text" name="title" placeholder="Title...">
+        <label>AUTHOR</label>
+        <input type="text" name="author" placeholder="Author...">
+        <button>Save</button>
+    </form>
+    <script defer src="./app.js"></script>
 </body>
 </html>
 
